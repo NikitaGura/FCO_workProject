@@ -1,0 +1,41 @@
+{
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "resources" : [
+    {
+      "filename" : "eighth.arreferenceimage"
+    },
+    {
+      "filename" : "fifth.arreferenceimage"
+    },
+    {
+      "filename" : "first.arreferenceimage"
+    },
+    {
+      "filename" : "fourth.arreferenceimage"
+    },
+    {
+      "filename" : "logoar.arreferenceimage"
+    },
+    {
+      "filename" : "ninth.arreferenceimage"
+    },
+    {
+      "filename" : "second.arreferenceimage"
+    },
+    {
+      "filename" : "seventh.arreferenceimage"
+    },
+    {
+      "filename" : "sixth.arreferenceimage"
+    },
+    {
+      "filename" : "tenth.arreferenceimage"
+    },
+    {
+      "filename" : "third.arreferenceimage"
+    }
+  ]
+}

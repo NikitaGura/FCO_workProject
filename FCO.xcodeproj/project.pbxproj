@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2157DB1221EA20E700B84343 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2157DB1121EA20E700B84343 /* InfoViewController.swift */; };
+		217C120421EA56110087DA9D /* SocialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217C120321EA56110087DA9D /* SocialTableViewCell.swift */; };
+		217C120621EB1D0F0087DA9D /* BarMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217C120521EB1D0F0087DA9D /* BarMenuViewController.swift */; };
+		218F4A0921EA31D100722903 /* SocialNetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218F4A0821EA31D100722903 /* SocialNetViewController.swift */; };
+		21AB0EF0220CCC02002B2DD6 /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 21AB0EEF220CCC02002B2DD6 /* giphy.gif */; };
+		21B9483E21F783B200CC5F52 /* Gotham_Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21B9483D21F783B200CC5F52 /* Gotham_Book.ttf */; };
+		21B9483F21F783B200CC5F52 /* Gotham_Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21B9483D21F783B200CC5F52 /* Gotham_Book.ttf */; };
+		21B9484021F783B200CC5F52 /* Gotham_Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21B9483D21F783B200CC5F52 /* Gotham_Book.ttf */; };
 		21C8DD5A21E9D60400620EC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C8DD5921E9D60400620EC9 /* AppDelegate.swift */; };
-		21C8DD5C21E9D60400620EC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C8DD5B21E9D60400620EC9 /* ViewController.swift */; };
 		21C8DD5F21E9D60400620EC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21C8DD5D21E9D60400620EC9 /* Main.storyboard */; };
 		21C8DD6121E9D60500620EC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21C8DD6021E9D60500620EC9 /* Assets.xcassets */; };
 		21C8DD6421E9D60500620EC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21C8DD6221E9D60500620EC9 /* LaunchScreen.storyboard */; };
 		21C8DD6F21E9D60500620EC9 /* FCOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C8DD6E21E9D60500620EC9 /* FCOTests.swift */; };
 		21C8DD7A21E9D60500620EC9 /* FCOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C8DD7921E9D60500620EC9 /* FCOUITests.swift */; };
+		21C8DD8821E9D70C00620EC9 /* gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C8DD8721E9D70C00620EC9 /* gif.swift */; };
+		21C8DD8A21E9D73700620EC9 /* LaodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C8DD8921E9D73700620EC9 /* LaodViewController.swift */; };
+		CB2CC56F9A574624D093C3D1 /* Pods_FCO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB81EE72D32428CE12ADEFFD /* Pods_FCO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +43,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		21AB0F6E2212FBEA002B2DD6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2157DB1121EA20E700B84343 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		217C120321EA56110087DA9D /* SocialTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialTableViewCell.swift; sourceTree = "<group>"; };
+		217C120521EB1D0F0087DA9D /* BarMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarMenuViewController.swift; sourceTree = "<group>"; };
+		218F4A0821EA31D100722903 /* SocialNetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNetViewController.swift; sourceTree = "<group>"; };
+		21AB0EEF220CCC02002B2DD6 /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = giphy.gif; path = "../../ios fco 2/assets/giphy.gif"; sourceTree = "<group>"; };
+		21B9483D21F783B200CC5F52 /* Gotham_Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Gotham_Book.ttf; path = "../../../Downloads/Telegram Desktop/Gotham_Book.ttf"; sourceTree = "<group>"; };
 		21C8DD5621E9D60400620EC9 /* FCO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FCO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C8DD5921E9D60400620EC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		21C8DD5B21E9D60400620EC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		21C8DD5E21E9D60400620EC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21C8DD6021E9D60500620EC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21C8DD6321E9D60500620EC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +74,11 @@
 		21C8DD7521E9D60500620EC9 /* FCOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FCOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C8DD7921E9D60500620EC9 /* FCOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCOUITests.swift; sourceTree = "<group>"; };
 		21C8DD7B21E9D60500620EC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21C8DD8721E9D70C00620EC9 /* gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gif.swift; sourceTree = "<group>"; };
+		21C8DD8921E9D73700620EC9 /* LaodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaodViewController.swift; sourceTree = "<group>"; };
+		CB81EE72D32428CE12ADEFFD /* Pods_FCO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FCO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3D549D925BD179A2DAA91E3 /* Pods-FCO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FCO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FCO/Pods-FCO.debug.xcconfig"; sourceTree = "<group>"; };
+		FB93D2010EE0EB88A8E66BCC /* Pods-FCO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FCO.release.xcconfig"; path = "Pods/Target Support Files/Pods-FCO/Pods-FCO.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB2CC56F9A574624D093C3D1 /* Pods_FCO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +107,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2143DA0121EB3951006D70CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				217C120321EA56110087DA9D /* SocialTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		218F4A0721EA313000722903 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				21C8DD8921E9D73700620EC9 /* LaodViewController.swift */,
+				2157DB1121EA20E700B84343 /* InfoViewController.swift */,
+				218F4A0821EA31D100722903 /* SocialNetViewController.swift */,
+				217C120521EB1D0F0087DA9D /* BarMenuViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		21C8DD4D21E9D60400620EC9 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +133,8 @@
 				21C8DD6D21E9D60500620EC9 /* FCOTests */,
 				21C8DD7821E9D60500620EC9 /* FCOUITests */,
 				21C8DD5721E9D60400620EC9 /* Products */,
+				B99C0FD96E5D50510A77B60E /* Pods */,
+				F27533CF1FD417796B7C19EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +151,16 @@
 		21C8DD5821E9D60400620EC9 /* FCO */ = {
 			isa = PBXGroup;
 			children = (
+				21B9483D21F783B200CC5F52 /* Gotham_Book.ttf */,
+				2143DA0121EB3951006D70CA /* Views */,
+				218F4A0721EA313000722903 /* Controllers */,
 				21C8DD5921E9D60400620EC9 /* AppDelegate.swift */,
-				21C8DD5B21E9D60400620EC9 /* ViewController.swift */,
 				21C8DD5D21E9D60400620EC9 /* Main.storyboard */,
 				21C8DD6021E9D60500620EC9 /* Assets.xcassets */,
+				21AB0EEF220CCC02002B2DD6 /* giphy.gif */,
 				21C8DD6221E9D60500620EC9 /* LaunchScreen.storyboard */,
 				21C8DD6521E9D60500620EC9 /* Info.plist */,
+				21C8DD8721E9D70C00620EC9 /* gif.swift */,
 			);
 			path = FCO;
 			sourceTree = "<group>";
@@ -125,6 +183,23 @@
 			path = FCOUITests;
 			sourceTree = "<group>";
 		};
+		B99C0FD96E5D50510A77B60E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3D549D925BD179A2DAA91E3 /* Pods-FCO.debug.xcconfig */,
+				FB93D2010EE0EB88A8E66BCC /* Pods-FCO.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F27533CF1FD417796B7C19EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB81EE72D32428CE12ADEFFD /* Pods_FCO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21C8DD7E21E9D60500620EC9 /* Build configuration list for PBXNativeTarget "FCO" */;
 			buildPhases = (
+				13C07E52E4D899CFF2AF65CC /* [CP] Check Pods Manifest.lock */,
 				21C8DD5221E9D60400620EC9 /* Sources */,
 				21C8DD5321E9D60400620EC9 /* Frameworks */,
 				21C8DD5421E9D60400620EC9 /* Resources */,
+				DDB695563BE00B7D38D19F86 /* [CP] Embed Pods Frameworks */,
+				21AB0F6E2212FBEA002B2DD6 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -193,6 +271,14 @@
 				TargetAttributes = {
 					21C8DD5521E9D60400620EC9 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					21C8DD6921E9D60500620EC9 = {
 						CreatedOnToolsVersion = 10.1;
@@ -231,7 +317,9 @@
 			files = (
 				21C8DD6421E9D60500620EC9 /* LaunchScreen.storyboard in Resources */,
 				21C8DD6121E9D60500620EC9 /* Assets.xcassets in Resources */,
+				21B9483E21F783B200CC5F52 /* Gotham_Book.ttf in Resources */,
 				21C8DD5F21E9D60400620EC9 /* Main.storyboard in Resources */,
+				21AB0EF0220CCC02002B2DD6 /* giphy.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +327,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21B9483F21F783B200CC5F52 /* Gotham_Book.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,17 +335,74 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21B9484021F783B200CC5F52 /* Gotham_Book.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13C07E52E4D899CFF2AF65CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FCO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDB695563BE00B7D38D19F86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FCO/Pods-FCO-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FCO/Pods-FCO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		21C8DD5221E9D60400620EC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21C8DD5C21E9D60400620EC9 /* ViewController.swift in Sources */,
+				21C8DD8821E9D70C00620EC9 /* gif.swift in Sources */,
+				21C8DD8A21E9D73700620EC9 /* LaodViewController.swift in Sources */,
+				217C120421EA56110087DA9D /* SocialTableViewCell.swift in Sources */,
+				2157DB1221EA20E700B84343 /* InfoViewController.swift in Sources */,
+				217C120621EB1D0F0087DA9D /* BarMenuViewController.swift in Sources */,
+				218F4A0921EA31D100722903 /* SocialNetViewController.swift in Sources */,
 				21C8DD5A21E9D60400620EC9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,11 +576,14 @@
 		};
 		21C8DD7F21E9D60500620EC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3D549D925BD179A2DAA91E3 /* Pods-FCO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FCO/FCO.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T29HC5ZR57;
 				INFOPLIST_FILE = FCO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,11 +597,14 @@
 		};
 		21C8DD8021E9D60500620EC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB93D2010EE0EB88A8E66BCC /* Pods-FCO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FCO/FCO.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T29HC5ZR57;
 				INFOPLIST_FILE = FCO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
